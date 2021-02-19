@@ -13,3 +13,65 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper.
 --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Box Model | Assignment IV</title>
+    <link rel="stylesheet" href="assets/stylesheet/style.css">
+</head>
+<body>
+    <header class="page-header">
+         <h1 class="page-title">The  Box Model, Box-sizing & Box-shadow</h1>
+    </header>
+    <main>
+        <section class="exrcise1">
+            <h3>Exercise1</h3>
+            <div class="square-box">
+                <p class="square">
+                    <span class="inner-square"></span>
+                </p>
+            </div>
+            <article class="content"> 
+                <span>Content</span>
+                <span>
+                    <div class="circle padding"></div>Padding
+                </span>
+                <span>
+                    <div class="circle border"></div>Border
+                </span>
+                <span>
+                    <div class="circle margin"></div>Margin
+                </span>
+            </article>
+        </section>
+        <section class="exercise2">
+            <header>
+                <h3>Exercise2</h3>
+            <p>No border on these boxes</p>
+            </header>
+            <div class="container ">
+                <div class="box no-border"></div>
+                <div class="box no-border"></div>
+                <div class="box no-border"></div>
+            </div>
+            <p>1px border on these boxes,</p>
+            <div class="container">
+                <div class="box with-border box4"></div>
+                <div class="box with-border box5"></div>
+                <div class="box with-border box6"></div>
+            </div>
+            <p>1px border on these boxes but they are in the same line.</p>
+            <div class="container">
+                <div class="box same-line box7"></div>
+                <div class="box same-line box8"></div>
+                <div class="box same-line box9"></div>
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
